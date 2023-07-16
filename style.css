@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Michroma&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url('https://images.pexels.com/photos/1097930/pexels-photo-1097930.jpeg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    font-family: 'Michroma', sans-serif;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 30px;
+}
+
+h2 {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    color: #666;
+}
+
+.calculadora {
+    width: 320px;
+    margin: 0 auto;
+    margin-left: 20px;
+    margin-right: 20px;
+    background-color: black;
+    border-radius: 10px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.9);
+}
+
+.parte1 {
+    background-color: #050507;
+    border-radius: 10px 10px 0px 0px;
+    
+}
+
+.contenedor-logo {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    margin: 15px;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 900;
+}
+
+.bateria {
+    margin: 15px;
+    width: 90px;
+    background-color: #4e4141;
+    
+}
+
+#pantalla {
+    width: 95%;
+    padding: 10px;
+    font-size: 20px;
+    margin: 10px 15px 10px 9px;
+    text-align: right;
+    background-color: #c9e4e5;
+    font-family: 'Michroma', sans-serif;
+}
+
+.botones {
+    border-radius: 20px 20px 10px 10px;
+    background-color: #222125;
+    
+}
+
+.igual {
+    display: flex;
+    justify-content: space-between; 
+}
+
+.contenedor-igual .btn {
+    width: 147px;
+    height: 40px;
+    background-color: #626671;
+}
+
+
+
+input[type="button"] {
+    width: 65px;
+    height: 40px;
+    margin-right: 5px;
+    margin-left: 5px;
+    margin-bottom: 5px;
+
+    font-size: 16px;
+    text-align: center;
+    justify-content: center;
+    background-color: #232228;
+    border: 0.5px solid black;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: 'Michroma', sans-serif;
+}
+
+input[type="button"]#igual {
+    margin: 0 10px 5px 0;
+    width: 147px;
+}
+
+input[type="button"]:hover {
+    border: 0.5px solid #fff;
+    font-size: 17px;
+}
+
+input[type="button"]:last-child {
+    margin-right: 0;
+}
+
+@media (min-width: 360px) {
+
+    body {
+        background-size: cover;
+    }
+
+    .calculadora {
+        margin: 0 auto;
+    }
+}
